@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+ <!--  <cron>
+    <url>/getList</url>
+    <description>Repopulate the cache every 2 minutes</description>
+    <schedule>every 2 minutes</schedule>
+  </cron> -->
+  <!-- <cron>
+    <url>/sendMail</url>
+    <description>Repopulate the cache every 2 minutes</description>
+    <schedule>every 2 minutes</schedule>
+  </cron> -->
+</cronentries>

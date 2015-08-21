@@ -1,0 +1,230 @@
+
+.md-toolbar-tools h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+.skill_button {
+	font-size:14px;
+	padding: 10px;
+}
+
+.labelskill{
+	font-family: FontAwesome;
+	color:#345;
+	font-size:14px; 	
+}
+
+.center {
+	margin:auto;
+	width: 200px
+}
+#profile {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+#profileSmall {
+    width: 50px;
+    max-height:60px;
+    padding-bottom: 8px;
+    margin-right:20px;
+    margin-top: 7px;
+    margin-left: 40%;
+    display: none;
+}
+
+.timelinebox{
+	border:thin;
+	border-color:#e9f0f5;
+	
+}
+
+.timeline-header {
+	padding-top:5px;
+	font-size:16px;
+	font-weight: normal;
+	font-family: FontAwesome;
+	color: #000;
+}
+
+.timeline-content {
+	font-size:14px;
+	font-weight: normal;
+	font-family: FontAwesome;
+	font-weight: bold;
+}
+
+span.date{
+	color: #1a237e;
+	font-weight: bold;
+	font-family: FontAwesome;
+}
+
+#iconColor : hover {
+ 	 content: url('http://www.furrytalk.com/wp-content/uploads/2010/05/2.jpg');
+ 	
+}
+
+.headerFont {
+	font-size: 23px;
+	color: #2E2E2E;
+}
+
+.fontSize {
+	font-size: 16px;
+	color: #2E2E2E;
+}
+
+.mycontent-left {
+  border-right: 1px dashed #333;
+}
+
+#topHeader{
+	position: fixed;
+	height: 50px;
+	z-index: 1000;
+}
+
+#header {
+  margin-top: 64px;
+  min-height: 275px;
+}
+
+.fabToolbardemoBasicUsage md-fab-toolbar.md-left md-fab-trigger.align-with-text {
+  left: 7px; }
+  
+  .main-container {
+ margin: auto;
+}
+.skyblue {
+    background-color: #fff;
+}
+.deepskyblue {
+    background-color: #fff;
+}
+.darkerskyblue {
+    background-color: #fff;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-color: #fff;
+}
+
+
+.carousel .item {
+    min-height: 350px; 
+    height: 100%;
+    width:100%; 
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+    background-color: #fff;
+}
+.carousel-caption h3 {
+    padding: .5em;
+}
+.carousel .icon-container {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 50%;
+}
+.carousel-caption button {
+    border-color: #fff;
+    margin-top: 1em; 
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+    animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+    animation-delay: 2s;
+}
+.carousel-caption button {
+    animation-delay: 3s;
+}
+
+h1 {
+  text-align: center;  
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+.blink_me {
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.row.vertical-divider {
+  overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  border-left: 3px solid #F2F7F9;
+  border-right: 3px solid #F2F7F9;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+  border-left: none;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+  border-right: none;
+}
+
+#loginpannel{
+	font-size:110%;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	box-shadow: 1px 1px 2px 2px #ABABAB;
+	background-color:white;
+	width:350px;
+	height:240px;
+	margin:0 auto;
+	margin-top: 100px;
+}
+
+#sign {
+	font-size:110%;
+	z-index:2;
+	position:absolute;
+	color:;
+	margin: 20px 15px 20px 120px;
+}
+#logbtm{
+    height: 32px;
+    width: 102px;	
+	margin: 15px 0px 0px 0px;	
+}
